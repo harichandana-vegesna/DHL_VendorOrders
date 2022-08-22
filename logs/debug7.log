@@ -1,0 +1,126 @@
+2022-07-19 01:19:18 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:19:18"} 
+
+2022-07-19 01:19:19 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:19:19"} 
+
+2022-07-19 01:19:19 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:19:19"} 
+
+2022-07-19 01:20:07 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:20:07"} 
+
+2022-07-19 01:21:49 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:21:49"} 
+
+2022-07-19 01:21:49 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:21:49"} 
+
+2022-07-19 01:21:49 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:21:49"} 
+
+2022-07-19 01:21:58 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:21:58"} 
+
+2022-07-19 01:22:54 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:22:54"} 
+
+2022-07-19 01:27:35 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:27:35"} 
+
+2022-07-19 01:27:36 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:27:36"} 
+
+2022-07-19 01:27:36 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:27:36"} 
+
+2022-07-19 01:28:14 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:28:14"} 
+
+2022-07-19 01:36:51 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:36:51"} 
+
+2022-07-19 01:36:52 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:36:52"} 
+
+2022-07-19 01:36:52 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:36:52"} 
+
+2022-07-19 01:37:20 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:37:20"} 
+
+2022-07-19 01:37:20 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:37:20"} 
+
+2022-07-19 01:37:20 [31merror[39m: {"0":{},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-07-19 01:37:20"} 
+
+2022-07-19 01:39:16 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:39:16"} 
+
+2022-07-19 01:39:16 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:39:16"} 
+
+2022-07-19 01:39:16 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:39:16"} 
+
+2022-07-19 01:39:21 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:39:21"} 
+
+2022-07-19 01:39:21 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:39:21"} 
+
+2022-07-19 01:39:21 [31merror[39m: {"0":{},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-07-19 01:39:21"} 
+
+2022-07-19 01:40:51 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:40:51"} 
+
+2022-07-19 01:40:51 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:40:51"} 
+
+2022-07-19 01:40:52 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:40:52"} 
+
+2022-07-19 01:40:56 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:40:56"} 
+
+2022-07-19 01:40:56 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:40:56"} 
+
+2022-07-19 01:40:56 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:40:56"} 
+
+2022-07-19 01:40:56 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 01:40:56"} 
+
+2022-07-19 12:14:01 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:14:01"} 
+
+2022-07-19 12:14:01 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:14:01"} 
+
+2022-07-19 12:19:02 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:19:02"} 
+
+2022-07-19 12:19:02 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:19:02"} 
+
+2022-07-19 12:19:47 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:19:47"} 
+
+2022-07-19 12:19:47 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:19:47"} 
+
+2022-07-19 12:19:47 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:19:47"} 
+
+2022-07-19 12:19:54 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:19:54"} 
+
+2022-07-19 12:24:42 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:24:42"} 
+
+2022-07-19 12:24:42 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:24:42"} 
+
+2022-07-19 12:24:42 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:24:42"} 
+
+2022-07-19 12:24:54 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:24:54"} 
+
+2022-07-19 12:33:08 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:33:08"} 
+
+2022-07-19 12:33:08 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:33:08"} 
+
+2022-07-19 12:33:08 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:33:08"} 
+
+2022-07-19 12:33:13 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:33:13"} 
+
+2022-07-19 12:34:11 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:34:11"} 
+
+2022-07-19 12:38:43 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:38:43"} 
+
+2022-07-19 12:38:43 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:38:43"} 
+
+2022-07-19 12:38:43 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:38:43"} 
+
+2022-07-19 12:38:53 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 12:38:53"} 
+
+2022-07-19 16:46:17 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 16:46:17"} 
+
+2022-07-19 16:46:18 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 16:46:18"} 
+
+2022-07-19 16:46:18 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 16:46:18"} 
+
+2022-07-19 16:46:24 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 16:46:24"} 
+
+2022-07-19 16:46:24 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 16:46:24"} 
+
+2022-07-19 16:46:24 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 16:46:24"} 
+
+2022-07-19 16:46:24 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-19 16:46:24"} 
+
+2022-07-22 12:23:45 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-22 12:23:45"} 
+
+2022-07-22 12:23:46 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-22 12:23:46"} 
+
+2022-07-22 12:23:46 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-22 12:23:46"} 
+

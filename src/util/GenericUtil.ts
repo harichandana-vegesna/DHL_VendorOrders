@@ -1,6 +1,7 @@
 import moment from 'moment';
 import { Logger } from '../logger/Logger';
 import { DI } from '../di/DIContainer';
+import { Md5 } from 'ts-md5/dist/md5';
 
 export class GenericUtil {
 
@@ -35,10 +36,26 @@ export class GenericUtil {
     }
 
     jsonToQueryString(json: any) {
-        return '?' + 
-            Object.keys(json).map(function(key) {
+        return '?' +
+            Object.keys(json).map(function (key) {
                 return encodeURIComponent(key) + '=' +
                     encodeURIComponent(json[key]);
             }).join('&');
     }
+
+
+    static generateRandomHash() {
+        return Md5.hashStr((new Date()).toString());
+    }
+
+    static generateHash(data: any) {
+        try {
+            console.log("generatehash--->", Md5.hashStr((data).toString()))
+            return Md5.hashStr((data).toString());
+        } catch (error) {
+            console.log(`Error=========`)
+            throw error;
+        }
+    }
+
 }

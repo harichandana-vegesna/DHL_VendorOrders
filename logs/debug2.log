@@ -1,0 +1,104 @@
+2022-07-18 16:12:43 [31merror[39m: {"0":{"name":"SequelizeValidationError","errors":[{"message":"ExpResponseData.message cannot be null","type":"notNull Violation","path":"message","value":null,"origin":"CORE","instance":{"id":null,"statusCode":201,"updatedAt":"2022-07-18T10:42:43.146Z","createdAt":"2022-07-18T10:42:43.146Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"ExpResponseData.shipmentTrackingNumber cannot be null","type":"notNull Violation","path":"shipmentTrackingNumber","value":null,"origin":"CORE","instance":{"id":null,"statusCode":201,"updatedAt":"2022-07-18T10:42:43.146Z","createdAt":"2022-07-18T10:42:43.146Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"ExpResponseData.status cannot be null","type":"notNull Violation","path":"status","value":null,"origin":"CORE","instance":{"id":null,"statusCode":201,"updatedAt":"2022-07-18T10:42:43.146Z","createdAt":"2022-07-18T10:42:43.146Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-07-18 16:12:43"} 
+
+2022-07-18 16:16:01 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:16:01"} 
+
+2022-07-18 16:16:01 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:16:01"} 
+
+2022-07-18 16:16:01 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:16:01"} 
+
+2022-07-18 16:16:05 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:16:05"} 
+
+2022-07-18 16:16:07 [31merror[39m: {"0":{"name":"SequelizeValidationError","errors":[{"message":"ExpResponseData.message cannot be null","type":"notNull Violation","path":"message","value":null,"origin":"CORE","instance":{"id":null,"statusCode":201,"updatedAt":"2022-07-18T10:46:07.902Z","createdAt":"2022-07-18T10:46:07.902Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"ExpResponseData.shipmentTrackingNumber cannot be null","type":"notNull Violation","path":"shipmentTrackingNumber","value":null,"origin":"CORE","instance":{"id":null,"statusCode":201,"updatedAt":"2022-07-18T10:46:07.902Z","createdAt":"2022-07-18T10:46:07.902Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"ExpResponseData.status cannot be null","type":"notNull Violation","path":"status","value":null,"origin":"CORE","instance":{"id":null,"statusCode":201,"updatedAt":"2022-07-18T10:46:07.902Z","createdAt":"2022-07-18T10:46:07.902Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-07-18 16:16:07"} 
+
+2022-07-18 16:18:44 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:18:44"} 
+
+2022-07-18 16:18:44 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:18:44"} 
+
+2022-07-18 16:18:44 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:18:44"} 
+
+2022-07-18 16:18:52 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:18:52"} 
+
+2022-07-18 16:20:51 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:20:51"} 
+
+2022-07-18 16:20:51 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:20:51"} 
+
+2022-07-18 16:20:51 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:20:51"} 
+
+2022-07-18 16:21:14 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:21:14"} 
+
+2022-07-18 16:21:14 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:21:14"} 
+
+2022-07-18 16:21:14 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:21:14"} 
+
+2022-07-18 16:21:18 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:21:18"} 
+
+2022-07-18 16:26:06 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:26:06"} 
+
+2022-07-18 16:26:06 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:26:06"} 
+
+2022-07-18 16:26:06 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:26:06"} 
+
+2022-07-18 16:26:11 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:26:11"} 
+
+2022-07-18 16:26:58 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:26:58"} 
+
+2022-07-18 16:26:58 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:26:58"} 
+
+2022-07-18 16:26:58 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:26:58"} 
+
+2022-07-18 16:27:17 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:27:17"} 
+
+2022-07-18 16:34:31 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:34:31"} 
+
+2022-07-18 16:34:32 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:34:32"} 
+
+2022-07-18 16:34:32 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:34:32"} 
+
+2022-07-18 16:34:34 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:34:34"} 
+
+2022-07-18 16:36:29 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:36:29"} 
+
+2022-07-18 16:36:29 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:36:29"} 
+
+2022-07-18 16:36:29 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:36:29"} 
+
+2022-07-18 16:36:32 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:36:32"} 
+
+2022-07-18 16:37:34 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:37:34"} 
+
+2022-07-18 16:37:34 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:37:34"} 
+
+2022-07-18 16:37:35 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:37:35"} 
+
+2022-07-18 16:37:37 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 16:37:37"} 
+
+2022-07-18 17:12:26 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 17:12:26"} 
+
+2022-07-18 17:12:26 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 17:12:26"} 
+
+2022-07-18 17:12:26 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 17:12:26"} 
+
+2022-07-18 17:12:29 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 17:12:29"} 
+
+2022-07-18 19:36:37 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:36:37"} 
+
+2022-07-18 19:36:38 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:36:38"} 
+
+2022-07-18 19:36:38 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:36:38"} 
+
+2022-07-18 19:37:13 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:37:13"} 
+
+2022-07-18 19:38:34 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:38:34"} 
+
+2022-07-18 19:38:34 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:38:34"} 
+
+2022-07-18 19:38:34 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:38:34"} 
+
+2022-07-18 19:39:26 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 19:39:26"} 
+
+2022-07-18 20:12:43 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 20:12:43"} 
+
+2022-07-18 20:12:43 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 20:12:43"} 
+
+2022-07-18 20:12:44 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 20:12:44"} 
+

@@ -1,16 +1,9 @@
 import { Logger } from "../logger/Logger";
 import { DI } from '../di/DIContainer';
 import { QueryBuilder } from "../util/QueryBuilder";
-//import { GenericUtil } from "../util/GenericUtil";
 import { ExpResponseDataRepository } from "../data/repository/ExpResponseDataRepository";
-//import { IMShipmentAnalyticsRepository } from "../data/repository/IMShipmentAnalyticsRepository";
 
-// import * as fs from 'fs';
-const xlsxtojson = require("xlsx-to-json-lc");
-import * as xlsx from 'xlsx';
-import moment from "moment";
-var multer = require('multer');
-var uuid = require('uuid')
+
 var fs = require('fs');
 
 
@@ -30,10 +23,8 @@ export class ExpResponseDataService {
                 console.log('Request Body inside ExpResponseDataService', req)
 
                 var status = req.res.statusCode
-                //console.log("Status",status)
                 var data = req.res.data
                 var data1 = JSON.parse(data)
-                //console.log("DATA",data1)
                 var shipmentTrackingNumber = data1.shipmentTrackingNumber
                 var obj
                 if (status == 201){
@@ -67,8 +58,8 @@ export class ExpResponseDataService {
                 whereObj['status'] = "UNPROCESSED";
                 let responseData: any = await this.ExpResponseDataRepository.get(whereObj);
                 
-                console.log("Result",responseData)                           
-                resolve({ res: responseData })
+                //console.log("Result",responseData)                           
+                resolve(responseData)
 
             } catch (e) {
                 resolve({ status: { code: 'FAILURE', message: "Error in FileFormat", error: e } })

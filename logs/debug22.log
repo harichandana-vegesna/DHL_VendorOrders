@@ -1,0 +1,86 @@
+2022-08-02 14:52:26 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 14:52:26"} 
+
+2022-08-02 14:52:26 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 14:52:26"} 
+
+2022-08-02 14:52:26 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 14:52:26"} 
+
+2022-08-02 14:59:27 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 14:59:27"} 
+
+2022-08-02 14:59:27 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 14:59:27"} 
+
+2022-08-02 14:59:27 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 14:59:27"} 
+
+2022-08-02 15:02:34 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 15:02:34"} 
+
+2022-08-02 15:02:34 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 15:02:34"} 
+
+2022-08-02 15:02:34 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 15:02:34"} 
+
+2022-08-02 15:25:23 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 15:25:23"} 
+
+2022-08-02 15:25:23 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 15:25:23"} 
+
+2022-08-02 15:25:23 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 15:25:23"} 
+
+2022-08-03 11:48:34 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 11:48:34"} 
+
+2022-08-03 11:48:35 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 11:48:35"} 
+
+2022-08-03 11:48:35 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 11:48:35"} 
+
+2022-08-03 11:48:44 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 11:48:44"} 
+
+2022-08-03 11:48:44 [31merror[39m: {"0":{"name":"SequelizeDatabaseError","parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'error_reason' in 'field list'","sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'error_reason' in 'field list'","sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-08-03 11:48:44"} 
+
+2022-08-03 12:10:00 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:10:00"} 
+
+2022-08-03 12:10:01 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:10:01"} 
+
+2022-08-03 12:10:01 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:10:01"} 
+
+2022-08-03 12:10:06 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:10:06"} 
+
+2022-08-03 12:10:06 [31merror[39m: {"0":{"name":"SequelizeDatabaseError","parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'error_reason' in 'field list'","sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'error_reason' in 'field list'","sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-08-03 12:10:06"} 
+
+2022-08-03 12:22:27 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:22:27"} 
+
+2022-08-03 12:22:27 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:22:27"} 
+
+2022-08-03 12:22:27 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:22:27"} 
+
+2022-08-03 12:22:35 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:22:35"} 
+
+2022-08-03 12:22:35 [31merror[39m: {"0":{"name":"SequelizeDatabaseError","parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'error_reason' in 'field list'","sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'error_reason' in 'field list'","sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"sql":"SELECT `id`, `message`, `shipmentTrackingNumber`, `customer_order_number`, `statusCode`, `status`, `error_reason`, `parent_uuid`, `createdAt`, `updatedAt`, `deletedAt` FROM `exp_response_data` AS `ExpResponseData` WHERE (`ExpResponseData`.`deletedAt` IS NULL AND `ExpResponseData`.`status` = 'UNPROCESSED');"},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-08-03 12:22:35"} 
+
+2022-08-03 12:25:53 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:25:53"} 
+
+2022-08-03 12:25:59 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:25:59"} 
+
+2022-08-03 12:25:59 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:25:59"} 
+
+2022-08-03 12:30:50 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:30:50"} 
+
+2022-08-03 12:30:50 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:30:50"} 
+
+2022-08-03 12:30:50 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:30:50"} 
+
+2022-08-03 12:31:09 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:31:09"} 
+
+2022-08-03 12:31:09 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:31:09"} 
+
+2022-08-03 12:31:09 [34mdebug[39m: {"0":"================================START-DATAGEN MESSAGE PUBLISH==================","1":"","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:31:09"} 
+
+2022-08-03 12:31:09 [34mdebug[39m: {"0":"Datagen Message ","1":"","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:31:09"} 
+
+2022-08-03 12:31:09 [34mdebug[39m: {"0":"Topic name ","1":"BLESS-COMMON-APP-OUTPUT-TOPIC","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:31:09"} 
+
+2022-08-03 12:31:09 [34mdebug[39m: {"0":"payloads ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:31:09"} 
+
+2022-08-03 12:41:07 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:41:07"} 
+
+2022-08-03 12:41:08 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:41:08"} 
+
+2022-08-03 12:41:08 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:41:08"} 
+
+2022-08-03 12:42:16 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-03 12:42:16"} 
+

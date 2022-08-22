@@ -1,0 +1,100 @@
+2022-07-28 14:23:01 [34mdebug[39m: {"0":"Topic name","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 14:23:01"} 
+
+2022-07-28 14:23:01 [34mdebug[39m: {"0":"payloads","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 14:23:01"} 
+
+2022-07-28 22:37:03 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:37:03"} 
+
+2022-07-28 22:37:04 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:37:04"} 
+
+2022-07-28 22:37:04 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:37:04"} 
+
+2022-07-28 22:37:10 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:37:10"} 
+
+2022-07-28 22:38:29 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:38:29"} 
+
+2022-07-28 22:38:30 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:38:30"} 
+
+2022-07-28 22:38:30 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:38:30"} 
+
+2022-07-28 22:38:34 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:38:34"} 
+
+2022-07-28 22:41:15 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:41:15"} 
+
+2022-07-28 22:41:15 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:41:15"} 
+
+2022-07-28 22:41:15 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:41:15"} 
+
+2022-07-28 22:41:32 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:41:32"} 
+
+2022-07-28 22:45:52 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:45:52"} 
+
+2022-07-28 22:45:52 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:45:52"} 
+
+2022-07-28 22:45:52 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:45:52"} 
+
+2022-07-28 22:46:02 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:46:02"} 
+
+2022-07-28 22:48:08 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:48:08"} 
+
+2022-07-28 22:48:09 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:48:09"} 
+
+2022-07-28 22:48:09 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:48:09"} 
+
+2022-07-28 22:48:14 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:48:14"} 
+
+2022-07-28 22:49:05 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:49:05"} 
+
+2022-07-28 22:49:05 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:49:05"} 
+
+2022-07-28 22:49:05 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:49:05"} 
+
+2022-07-28 22:49:10 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:49:10"} 
+
+2022-07-28 22:52:06 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:52:06"} 
+
+2022-07-28 22:52:07 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:52:07"} 
+
+2022-07-28 22:52:07 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:52:07"} 
+
+2022-07-28 22:52:36 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:52:36"} 
+
+2022-07-28 22:53:59 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-28 22:53:59"} 
+
+2022-08-02 12:30:03 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:30:03"} 
+
+2022-08-02 12:30:03 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:30:03"} 
+
+2022-08-02 12:30:03 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:30:03"} 
+
+2022-08-02 12:31:48 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:31:48"} 
+
+2022-08-02 12:31:48 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:31:48"} 
+
+2022-08-02 12:31:48 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:31:48"} 
+
+2022-08-02 12:32:47 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:32:47"} 
+
+2022-08-02 12:32:48 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:32:48"} 
+
+2022-08-02 12:32:48 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:32:48"} 
+
+2022-08-02 12:32:54 [31merror[39m: {"0":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-08-02 12:32:54"} 
+
+2022-08-02 12:41:34 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:41:34"} 
+
+2022-08-02 12:41:34 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:41:34"} 
+
+2022-08-02 12:41:34 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:41:34"} 
+
+2022-08-02 12:43:14 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:43:14"} 
+
+2022-08-02 12:43:14 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:43:14"} 
+
+2022-08-02 12:43:14 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'vendor-order'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'vendor-order'"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:43:14"} 
+
+2022-08-02 12:44:05 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:44:05"} 
+
+2022-08-02 12:44:05 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:44:05"} 
+
+2022-08-02 12:44:05 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-08-02 12:44:05"} 
+

@@ -1,0 +1,108 @@
+2022-07-18 13:22:33 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 13:22:33"} 
+
+2022-07-18 13:22:33 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 13:22:33"} 
+
+2022-07-18 13:22:33 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 13:22:33"} 
+
+2022-07-18 14:17:01 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:17:01"} 
+
+2022-07-18 14:17:01 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:17:01"} 
+
+2022-07-18 14:17:01 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:17:01"} 
+
+2022-07-18 14:17:06 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:17:06"} 
+
+2022-07-18 14:17:06 [31merror[39m: {"0":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[31merror\u001b[39m","message":"❎ ","timestamp":"2022-07-18 14:17:06"} 
+
+2022-07-18 14:22:38 [34mdebug[39m: {"0":"DB NAME","1":"vendor-order","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:22:38"} 
+
+2022-07-18 14:22:39 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:22:39"} 
+
+2022-07-18 14:22:39 [34mdebug[39m: {"0":"DB Not Connected","1":{"name":"SequelizeAccessDeniedError","parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"},"original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'dbuser'@'localhost' (using password: YES)"}},"level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:22:39"} 
+
+2022-07-18 14:23:56 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:23:56"} 
+
+2022-07-18 14:23:56 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:23:56"} 
+
+2022-07-18 14:23:56 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:23:56"} 
+
+2022-07-18 14:27:04 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:27:04"} 
+
+2022-07-18 14:27:04 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:27:04"} 
+
+2022-07-18 14:27:04 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:27:04"} 
+
+2022-07-18 14:27:12 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:27:12"} 
+
+2022-07-18 14:29:18 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:29:18"} 
+
+2022-07-18 14:29:18 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:29:18"} 
+
+2022-07-18 14:29:19 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:29:19"} 
+
+2022-07-18 14:29:22 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:29:22"} 
+
+2022-07-18 14:50:35 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:50:35"} 
+
+2022-07-18 14:50:35 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:50:35"} 
+
+2022-07-18 14:50:35 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:50:35"} 
+
+2022-07-18 14:50:43 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:50:43"} 
+
+2022-07-18 14:56:27 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:56:27"} 
+
+2022-07-18 14:56:27 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:56:27"} 
+
+2022-07-18 14:56:27 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:56:27"} 
+
+2022-07-18 14:56:31 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:56:31"} 
+
+2022-07-18 14:57:05 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:57:05"} 
+
+2022-07-18 14:57:05 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:57:05"} 
+
+2022-07-18 14:57:05 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:57:05"} 
+
+2022-07-18 14:57:10 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 14:57:10"} 
+
+2022-07-18 15:04:37 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:04:37"} 
+
+2022-07-18 15:04:37 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:04:37"} 
+
+2022-07-18 15:04:37 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:04:37"} 
+
+2022-07-18 15:04:40 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:04:40"} 
+
+2022-07-18 15:06:59 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:06:59"} 
+
+2022-07-18 15:06:59 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:06:59"} 
+
+2022-07-18 15:06:59 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:06:59"} 
+
+2022-07-18 15:07:02 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:07:02"} 
+
+2022-07-18 15:08:36 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:08:36"} 
+
+2022-07-18 15:08:36 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:08:36"} 
+
+2022-07-18 15:08:36 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:08:36"} 
+
+2022-07-18 15:08:40 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:08:40"} 
+
+2022-07-18 15:14:12 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:14:12"} 
+
+2022-07-18 15:14:12 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:14:12"} 
+
+2022-07-18 15:14:12 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:14:12"} 
+
+2022-07-18 15:14:32 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:14:32"} 
+
+2022-07-18 15:16:14 [34mdebug[39m: {"0":"DB NAME","1":"vendor","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:16:14"} 
+
+2022-07-18 15:16:14 [34mdebug[39m: {"0":"Application Server Started","1":"4200","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:16:14"} 
+
+2022-07-18 15:16:14 [34mdebug[39m: {"0":"DB Connected","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:16:14"} 
+
+2022-07-18 15:16:17 [34mdebug[39m: {"0":"Attributes in Lines Get ","level":"\u001b[34mdebug\u001b[39m","message":"🖐 ","timestamp":"2022-07-18 15:16:17"} 
+

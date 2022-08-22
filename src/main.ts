@@ -1,45 +1,33 @@
 import express from 'express';
-// import expressOasGenerator from 'express-oas-generator';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { Logger } from './logger/Logger';
 import { DBConnection } from './config/DBConnection';
-//import {CronService} from './service/CronService'
-import { BaseController } from './controller/BaseController';
-// import {OperationalDataController} from './controller/OperationalDataController'
-// import {CronController} from './controller/CronController'
-// import {AnalyticsController} from './controller/AnalyticsController'
-// import {IMShipmentAnalyticsController} from './controller/IMShipmentAnalyticsController'
-//import {AuthController} from './controller/AuthController'
 import {ShipmentController} from './controller/ShipmentController'
 import { initModels } from './data/entity/init-models';
 import { DI } from './di/DIContainer';
 import { ErrorHandler } from './error/ErrorHandler';
-import Keycloak from 'keycloak-connect';
 import session, { MemoryStore } from 'express-session';
-// import { ShipmentCostAnalyticsController } from './controller/ShipmentCostAnalyticsController';
-// import { ShipmentRegionalCostAnalysisController } from './controller/ShipmentRegionalCostAnalysisController';
-// import { EtaDeviationController } from './controller/EtaDeviationController';
+import { DownStreamController } from './controller/DownStreamController';
+import { AuthController } from './controller/AuthController';
+import { ExpTmsService } from "./service/ExpTmsService";
+import { LlpClien2Service } from "./service/LlpClien2Service";
+import { LobsterService } from "./service/LobsterService";
+const multer  = require('multer');
 
-// import { ImController } from './controller/ImController';
+var upload = multer();
 
 const expressApp: express.Application = express(); 
 var bodyParser = require('body-parser');            
 var cron = require('cron');
 expressApp.use(bodyParser.json({limit:'500mb'})); 
 expressApp.use(bodyParser.urlencoded({extended:true, limit:'500mb'})); 
-
+expressApp.use(upload.array());
 var schedule = require('node-schedule');
 var request = require('request');
 
 const memoryStore = DI.get<MemoryStore>(MemoryStore);
-const keycloak: Keycloak = DI.get(Keycloak, { store: memoryStore }, {
-    clientId: process.env.KC_CLIENT_ID,
-    bearerOnly: true,
-    serverUrl: process.env.KC_HOST! + process.env.KC_AUTH_PATH!,
-    realm: process.env.KC_REALM,
-    "confidential-port": 0
-});
+
 
 dotenv.config();
 
@@ -72,60 +60,60 @@ class Main {
             expressApp.use(cors());
             expressApp.use(bodyParser.urlencoded({extended: true}));
             expressApp.use(bodyParser.json());
-            expressApp.use(keycloak.middleware());
             expressApp.use((req, res, next) => {
                 DI.destroy();
                 next();
             })
-
-            // expressApp.use(`${baseUrl}/auth`, DI.get<AuthController>(AuthController).getRouter());
-            // expressApp.use(`${baseUrl}/transactions`,DI.get<OperationalDataController>(OperationalDataController).getRouter());
-            // expressApp.use(`${baseUrl}/cron`,DI.get<CronController>(CronController).getRouter());
-            // expressApp.use(`${baseUrl}`,DI.get<AnalyticsController>(AnalyticsController).getRouter());
-            // expressApp.use(`${baseUrl}/shipments`,DI.get<IMShipmentAnalyticsController>(IMShipmentAnalyticsController).getRouter());
-            // expressApp.use(`${baseUrl}/shipmentCostAnalytics`,DI.get<ShipmentCostAnalyticsController>(ShipmentCostAnalyticsController).getRouter());
-            // expressApp.use(`${baseUrl}/shipmentRegionalCostAnalytics`,DI.get<ShipmentRegionalCostAnalysisController>(ShipmentRegionalCostAnalysisController).getRouter());
-            // expressApp.use(`${baseUrl}/etaDeviation`,DI.get<EtaDeviationController>(EtaDeviationController).getRouter());
-            
-            // expressApp.use(`${baseUrl}/im`, DI.get<ImController>(ImController).getRouter());
+            expressApp.use(`${baseUrl}/auth`,DI.get<AuthController>(AuthController).getRouter());
+            expressApp.use(`${baseUrl}/out/bless-downstream`,DI.get<DownStreamController>(DownStreamController).getRouter());
+            expressApp.use(`${baseUrl}/vendor`,DI.get<ShipmentController>(ShipmentController).getRouter());
             expressApp.use(DI.get<ErrorHandler>(ErrorHandler).errorHandler);
-
-            expressApp.use(`/vendor`,DI.get<ShipmentController>(ShipmentController).getRouter());
-
     }
     
 
     private startServer() {
         expressApp.listen(process.env.PORT, () => {
             this.logger.log('Application Server Started',process.env.PORT);
+
+  
+                let expTmsService: ExpTmsService = DI.get(ExpTmsService)
+                let llpToClient2Service: LlpClien2Service = DI.get(LlpClien2Service)
+                let lobsterService: LobsterService = DI.get(LobsterService)
+
+                var llpToTms = cron.job(process.env.CRON1, async () => {              
+                    await expTmsService.ExpDhl()
+                    this.logger.log('cron Execution Success for LLP to TMS');
+    
+    
+                });
+                var llpToClient2 = cron.job(process.env.CRON2, async () => {
+                    await llpToClient2Service.clientTmsResponse();
+                    this.logger.log('cron Execution Success for LLP to CLIENT2');
+                });
+                var client2ToLob = cron.job(process.env.CRON3, async () => {
+                    await lobsterService.postTmsResponseToLobster();
+                    this.logger.log('cron Execution Success for CLIENT2 to Lobster');
+                });
+                if(process.env.LLP_TMS_CRON=="ON"){
+                    llpToTms.start(); 
+                }else if(process.env.LLP_TMS_CRON=="OFF"){
+                    llpToTms.stop();
+                }  
+                if(process.env.LLP_CLIENT2_CRON=="ON"){   
+                    llpToClient2.start();
+                }else if(process.env.LLP_CLIENT2_CRON=="OFF"){
+                    llpToClient2.stop();
+                }
+                if(process.env.CLIENT2_LOBSTER_CRON=="ON"){  
+                    client2ToLob.start();             
+                }else if(process.env.CLIENT2_LOBSTER_CRON=="OFF"){                  
+                    client2ToLob.stop();
+                }
+                
+                //nodeApis.start();
+                //cronApis.start();
         });
-        // expressApp.listen(process.env.PORT, () => {
-        //     this.logger.log('Application Server Started');
-        //     let cronService: CronService = DI.get(CronService)
-        //     var cronApis = cron.job("0 * * * *", async () => {              
-        //         await cronService.gskCron();
-        //         this.logger.log('cron Execution Success');
-
-
-        //     });
-        //     var nodeApis = cron.job("*/10  * * * *", async () => {
-        //         await cronService.kafkaNodeSch();
-        //         this.logger.log('Kafka Node Scheduler Execution Success');
-        //     });
-        //     if(process.env.IMCRON=="ON"){
-        //         nodeApis.start();                
-        //     }else if(process.env.IMCRON=="OFF"){
-        //         nodeApis.stop();
-        //     }
-        //     if(process.env.AGGCRON=="ON"){
-        //         cronApis.start();
-        //     }else if(process.env.AGGCRON=="OFF"){
-        //         cronApis.stop();
-        //     }
-            
-        //     //nodeApis.start();
-        //     //cronApis.start();
-        // });
+        
     }
 }
 
