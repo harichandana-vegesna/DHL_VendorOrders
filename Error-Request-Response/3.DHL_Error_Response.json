@@ -1,0 +1,10 @@
+{
+   "statusCode":400,
+   "data":{
+      "instance":"/expressapi/shipments",
+      "detail":"7013: Pickup is not allowed for this shipment date. Please update and re-try again.",
+      "title":"Bad request",
+      "message":"Bad request",
+      "status":"400"
+   }
+}

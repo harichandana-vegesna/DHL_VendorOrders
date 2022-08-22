@@ -1,0 +1,101 @@
+{
+   "productCode":"P",
+   "plannedShippingDateAndTime":"2022-07-11T20:00:00 GMT+02:00",
+   "getRateEstimates":true,
+   "pickup":{
+      "isRequested":true,
+      "pickupDetails":{
+         "postalAddress":{
+            "countryCode":"FR",
+            "cityName":"FLEVY",
+            "postalCode":"57365",
+            "addressLine1":"RUE ANDRÃ� MAGINOT "
+         },
+         "contactInformation":{
+            "fullName":"CARGOTEC CHS PTE LTD",
+            "phone":"+33387736816",
+            "companyName":"CARGOTEC CHS PTE LTD"
+         }
+      }
+   },
+   "accounts":[
+      {
+         "typeCode":"shipper",
+         "number":"954987611"
+      }
+   ],
+   "outputImageProperties":{
+      "encodingFormat":"pdf",
+      "imageOptions":[
+         {
+            "templateName":"ECOM26_84_001",
+            "isRequested":true,
+            "typeCode":"label"
+         }
+      ]
+   },
+   "customerDetails":{
+      "shipperDetails":{
+         "postalAddress":{
+            "countryCode":"FR",
+            "cityName":"FLEVY",
+            "postalCode":"57365",
+            "addressLine1":"RUE ANDRÃ� MAGINOT "
+         },
+         "contactInformation":{
+            "fullName":"CARGOTEC CHS PTE LTD",
+            "phone":"+33387736816",
+            "companyName":"CARGOTEC CHS PTE LTD"
+         }
+      },
+      "receiverDetails":{
+         "postalAddress":{
+            "countryCode":"PE",
+            "cityName":"LIMA",
+            "postalCode":"07016",
+            "addressLine1":"LIMA "
+         },
+         "contactInformation":{
+            "fullName":"TRITON TRADING S.A",
+            "phone":"+1245587850",
+            "companyName":"TRITON TRADING S.A"
+         }
+      },
+      "buyerDetails":{
+         "postalAddress":{
+            "countryCode":"PE",
+            "cityName":"LIMA",
+            "postalCode":"07016",
+            "addressLine1":"LIMA "
+         },
+         "contactInformation":{
+            "fullName":"TRITON TRADING S.A",
+            "phone":"+1245587850",
+            "companyName":"TRITON TRADING S.A"
+         }
+      }
+   },
+   "content":{
+      "unitOfMeasurement":"metric",
+      "incoterm":"DAP",
+      "isCustomsDeclarable":true,
+      "description":"ADAPTER TEST CHANGE AGAIN, SHAFT COUPLING UPDATE DESCRIPTION",
+      "packages":[
+         {
+            "weight":67,
+            "dimensions":{
+               "length":150,
+               "width":90,
+               "height":40
+            },
+            "customerReferences":[
+               {
+                  "value":"EDC202207060001#1"
+               }
+            ]
+         }
+      ],
+      "declaredValue":200,
+      "declaredValueCurrency":"EUR"
+   }
+}

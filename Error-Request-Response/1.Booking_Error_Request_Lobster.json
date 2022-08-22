@@ -1,0 +1,359 @@
+{
+   "Envelope":{
+      "header":{
+         "senderId":"10019",
+         "recipientId":"134",
+         "initiatingChannel":"_pro-Export",
+         "processingType":"GET"
+      },
+      "content":{
+         "shipments":[
+            {
+               "systemId":"668581",
+               "consignorRef":"0000004274",
+               "forwarderRef":"CAR-DHL-FREIGHT-FR-115482",
+               "principalRef":"EDC202207060001",
+               "foreignKeys":[
+                  {
+                     "keyValue":"0000004274",
+                     "keyName":"SAP_SHIPMENT_ID",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"134.37.82.16",
+                     "keyName":"PRINTER_ID",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"FIHEL2-L1372",
+                     "keyName":"PRINTER_WORKSTATION",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"N",
+                     "keyName":"PRINT_LABEL",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"OUTBOUND",
+                     "keyName":"COMMODITY_TYPE",
+                     "participantId":"10019"
+                  }
+               ],
+               "requestedTransportMode":"AIR",
+               "loadingNumber":"EDC202207060001",
+               "serviceType":"P",
+               "incoTerm":"DAP",
+               "totalNumberOfHandlingUnits":"1",
+               "dangerousGoodsFlag":"false",
+               "externalEdiParameters":"SenderTransactionId:4615818#Domain:CTC/EDC",
+               "creationDateTime":{
+                  "dateTime":"2022-07-07 09:57:57.952",
+                  "timezone":"UTC",
+                  "milliseconds":"1657187877952"
+               },
+               "pickupDate":{
+                  "planned":{
+                     "from":{
+                        "dateTime":"2022-07-11 22:00:00.0",
+                        "timezone":"Europe/Paris",
+                        "milliseconds":"1657569600000"
+                     }
+                  }
+               },
+               "deliveryDate":{
+                  "planned":{
+                     "from":{
+                        "dateTime":"2022-07-14 06:00:00.0",
+                        "timezone":"America/Lima",
+                        "milliseconds":"1657796400000"
+                     }
+                  }
+               },
+               "consignor":{
+                  "foreignPartnerReference":[
+                     {
+                        "reference":"954987611",
+                        "participantId":"134"
+                     }
+                  ],
+                  "address":{
+                     "name1":"CARGOTEC CHS PTE LTD",
+                     "name2":"BÃ�TIMENT 2 - ZONE EUROTRANSIT 3",
+                     "street1":"RUE ANDRÃ� MAGINOT ",
+                     "zipcode":"57365",
+                     "city":"FLEVY",
+                     "countryCode":"FR",
+                     "contacts":[
+                        {
+                           "name":"CARGOTEC CHS PTE LTD",
+                           "email":"pratik.sharma@inspirage.com",
+                           "phone":"+33387736816"
+                        }
+                     ]
+                  }
+               },
+               "consignee":{
+                  "address":{
+                     "name1":"TRITON TRADING S.A",
+                     "name2":"PS",
+                     "street1":"LIMA ",
+                     "zipcode":"07016",
+                     "city":"LIMA",
+                     "countryCode":"PE",
+                     "contacts":[
+                        {
+                           "name":"TRITON TRADING S.A",
+                           "email":"pratik.sharma@inspirage.com",
+                           "phone":"+1245587850"
+                        }
+                     ]
+                  }
+               },
+               "forwarder":{
+                  "participantId":"134",
+                  "address":{
+                     "name1":"DHL Express Germany GmbH",
+                     "street1":"Werner Heisenbergstrasse 1",
+                     "zipcode":"68169",
+                     "city":"Mannheim",
+                     "countryCode":"DE",
+                     "longitude":"8.45051",
+                     "latitude":"49.52963"
+                  }
+               },
+               "principal":{
+                  "participantId":"10019",
+                  "foreignPartnerReference":[
+                     {
+                        "reference":"954987611",
+                        "participantId":"134"
+                     }
+                  ],
+                  "address":{
+                     "name1":"Cargotec"
+                  }
+               },
+               "buyer":{
+                  "address":{
+                     "name1":"CARGOTEC CHS PTE LTD",
+                     "street1":"RUE ANDRÃ� MAGINOT ",
+                     "zipcode":"57365",
+                     "city":"FLEVY",
+                     "countryCode":"FR",
+                     "contacts":[
+                        {
+                           "name":"CARGOTEC CHS PTE LTD",
+                           "email":"pratik.sharma@inspirage.com",
+                           "phone":"+33387736816"
+                        }
+                     ]
+                  }
+               },
+               "deliveryAddress":{
+                  "name1":"TRITON TRADING S.A",
+                  "name2":"PS",
+                  "street1":"LIMA ",
+                  "zipcode":"07016",
+                  "city":"LIMA",
+                  "countryCode":"PE",
+                  "longitude":"-77.0268",
+                  "latitude":"-12.05613",
+                  "contacts":[
+                     {
+                        "name":"TRITON TRADING S.A",
+                        "email":"pratik.sharma@inspirage.com",
+                        "phone":"+1245587850"
+                     }
+                  ]
+               },
+               "pickupAddress":{
+                  "name1":"CARGOTEC CHS PTE LTD",
+                  "name2":"BÃ�TIMENT 2 - ZONE EUROTRANSIT 3",
+                  "street1":"RUE ANDRÃ� MAGINOT ",
+                  "zipcode":"57365",
+                  "city":"FLEVY",
+                  "countryCode":"FR",
+                  "longitude":"6.23611",
+                  "latitude":"49.23509",
+                  "contacts":[
+                     {
+                        "name":"CARGOTEC CHS PTE LTD",
+                        "email":"pratik.sharma@inspirage.com",
+                        "phone":"+33387736816"
+                     }
+                  ]
+               },
+               "dimensions":{
+                  "grossVolume":{
+                     "value":"0.54",
+                     "unit":"m3"
+                  },
+                  "grossWeight":{
+                     "value":"67.00",
+                     "unit":"kg"
+                  }
+               },
+               "remarks":[
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"OUTBOUND"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Print label: N"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Printer Id: 134.37.82.16"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Printer Workstation: FIHEL2-L1372"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Transportation Cost: 626.6700000000001 EUR"
+                  }
+               ],
+               "transportSegments":[
+                  {
+                     "transportSegmentType":"FLIGHT",
+                     "transportMode":"AIR",
+                     "transportSegmentReference":"EDC202207060001-SG16_SAP",
+                     "carrier":{
+                        "address":{
+                           "name1":"DHL FREIGHT (FRANCE) S.A.S.",
+                           "countryCode":"FR"
+                        }
+                     },
+                     "origin":{
+                        "name1":"CARGOTEC CHS PTE LTD",
+                        "zipcode":"57365",
+                        "city":"FLEVY",
+                        "countryCode":"FR"
+                     },
+                     "destination":{
+                        "name1":"TRITON TRADING S.A",
+                        "zipcode":"07016",
+                        "city":"LIMA",
+                        "countryCode":"PE"
+                     }
+                  }
+               ],
+               "handlingUnits":[
+                  {
+                     "aggregateShpPos":"1.0",
+                     "consignorRef":"105859",
+                     "principalRef":"EDC202207060001#1",
+                     "handlingUnitType":"PU",
+                     "consignor":{
+                        "participantId":"10019",
+                        "address":{
+                           "name1":"Cargotec"
+                        }
+                     },
+                     "consignee":{
+                        "foreignPartnerReference":[
+                           {
+                              "reference":"6002551-81140_SAP",
+                              "participantId":"10019"
+                           }
+                        ],
+                        "address":{
+                           "name1":"TRITON TRADING S.A",
+                           "street1":"LIMA ",
+                           "zipcode":"07016",
+                           "city":"LIMA",
+                           "countryCode":"PE"
+                        }
+                     },
+                     "principal":{
+                        "participantId":"10019",
+                        "address":{
+                           "name1":"Cargotec"
+                        }
+                     },
+                     "dimensions":{
+                        "height":{
+                           "value":"40.0",
+                           "unit":"cm"
+                        },
+                        "length":{
+                           "value":"150.0",
+                           "unit":"cm"
+                        },
+                        "width":{
+                           "value":"90.0",
+                           "unit":"cm"
+                        },
+                        "grossVolume":{
+                           "value":"0.54",
+                           "unit":"m3"
+                        },
+                        "grossWeight":{
+                           "value":"67.00",
+                           "unit":"kg"
+                        }
+                     },
+                     "remarks":[
+                        {
+                           "remarkQualifier":"PACKAGING_DETAILS"
+                        }
+                     ],
+                     "lineItems":[
+                        {
+                           "itemNumber":"1",
+                           "itemDescription":"SHAFT COUPLING UPDATE DESCRIPTION",
+                           "foreignKeys":[
+                              {
+                                 "keyValue":"84313900",
+                                 "keyName":"COMMODITY_CODE",
+                                 "participantId":"10019"
+                              }
+                           ],
+                           "dimensions":{
+                              "grossWeight":{
+                                 "value":"0.00"
+                              }
+                           },
+                           "manufacturingCountry":"SE",
+                           "lineItemPos":"1",
+                           "customsInformation":{
+                              "exportReasonType":"PERMANENT"
+                           }
+                        }
+                     ],
+                     "customsInformation":{
+                        "goodsDescription":"ADAPTER TEST CHANGE AGAIN, SHAFT COUPLING UPDATE DESCRIPTION"
+                     }
+                  }
+               ],
+               "workingStatusEvents":[
+                  {
+                     "code":"RELEASED",
+                     "reason":"D",
+                     "creationDateTime":[
+                        {
+                           "milliseconds":"1657187878296"
+                        }
+                     ],
+                     "realizationDateTime":[
+                        {
+                           "timezone":"UTC",
+                           "milliseconds":"1657187877947"
+                        }
+                     ]
+                  }
+               ],
+               "customsInformation":{
+                  "goodsValue":{
+                     "value":"200.00",
+                     "unit":"EUR"
+                  }
+               }
+            }
+         ]
+      }
+   }
+}

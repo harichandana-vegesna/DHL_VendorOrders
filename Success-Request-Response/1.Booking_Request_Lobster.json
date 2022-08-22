@@ -1,0 +1,379 @@
+{
+   "Envelope":{
+      "header":{
+         "senderId":"10019",
+         "recipientId":"134",
+         "initiatingChannel":"_pro-Export",
+         "processingType":"GET"
+      },
+      "content":{
+         "shipments":[
+            {
+               "systemId":"669606",
+               "consignorRef":"0000004269",
+               "forwarderRef":"CAR-DHL-FREIGHT-FR-115482",
+               "principalRef":"EDC202207070002",
+               "foreignKeys":[
+                  {
+                     "keyValue":"0000004269",
+                     "keyName":"SAP_SHIPMENT_ID",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"134.37.82.93",
+                     "keyName":"PRINTER_ID",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"FIHEL2-L1372",
+                     "keyName":"PRINTER_WORKSTATION",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"OUTBOUND",
+                     "keyName":"COMMODITY_TYPE",
+                     "participantId":"10019"
+                  },
+                  {
+                     "keyValue":"Y",
+                     "keyName":"PRINT_LABEL",
+                     "participantId":"10019"
+                  }
+               ],
+               "requestedTransportMode":"AIR",
+               "loadingNumber":"EDC202207070002",
+               "serviceType":"U",
+               "incoTerm":"DAP",
+               "totalNumberOfHandlingUnits":"1",
+               "dangerousGoodsFlag":"false",
+               "externalEdiParameters":"SenderTransactionId:4615805#Domain:CTC/EDC",
+               "creationDateTime":{
+                  "dateTime":"2022-07-07 08:10:37.382",
+                  "timezone":"UTC",
+                  "milliseconds":"1657181437382"
+               },
+               "pickupDate":{
+                  "planned":{
+                     "from":{
+                        "dateTime":"2022-07-07 13:00:00.0",
+                        "timezone":"Europe/Paris",
+                        "milliseconds":"1657191600000"
+                     }
+                  }
+               },
+               "deliveryDate":{
+                  "planned":{
+                     "from":{
+                        "dateTime":"2022-07-08 06:00:00.0",
+                        "timezone":"Europe/Brussels",
+                        "milliseconds":"1657252800000"
+                     }
+                  }
+               },
+               "consignor":{
+                  "foreignPartnerReference":[
+                     {
+                        "reference":"954987611",
+                        "participantId":"134"
+                     }
+                  ],
+                  "address":{
+                     "name1":"CARGOTEC FINLAND OY",
+                     "name2":"C/O NEOVIA LOGISTICS SERVICES",
+                     "street1":"ZAC DE LA FONTAINE DES SAINTS ",
+                     "zipcode":"57365",
+                     "city":"FLEVY",
+                     "countryCode":"FR",
+                     "contacts":[
+                        {
+                           "name":"CARGOTEC FINLAND OY",
+                           "email":"pratik.sharma@inspirage.com",
+                           "phone":"+1245587850"
+                        }
+                     ]
+                  }
+               },
+               "consignee":{
+                  "address":{
+                     "name1":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+                     "name2":"TEST PK 1234",
+                     "street1":"HEIZEGEMWEG 7 ",
+                     "zipcode":"2030",
+                     "city":"ANTWERPEN",
+                     "countryCode":"BE",
+                     "contacts":[
+                        {
+                           "name":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+                           "email":"pratik.sharma@inspirage.com",
+                           "phone":"+17976456789"
+                        }
+                     ]
+                  }
+               },
+               "forwarder":{
+                  "participantId":"134",
+                  "address":{
+                     "name1":"DHL Express Germany GmbH",
+                     "street1":"Werner Heisenbergstrasse 1",
+                     "zipcode":"68169",
+                     "city":"Mannheim",
+                     "countryCode":"DE",
+                     "longitude":"8.45051",
+                     "latitude":"49.52963"
+                  }
+               },
+               "principal":{
+                  "participantId":"10019",
+                  "foreignPartnerReference":[
+                     {
+                        "reference":"954987611",
+                        "participantId":"134"
+                     }
+                  ],
+                  "address":{
+                     "name1":"Cargotec"
+                  }
+               },
+               "buyer":{
+                  "address":{
+                     "name1":"CARGOTEC FINLAND OY",
+                     "name2":"C/O NEOVIA LOGISTICS SERVICES",
+                     "street1":"ZAC DE LA FONTAINE DES SAINTS ",
+                     "zipcode":"57365",
+                     "city":"FLEVY",
+                     "countryCode":"FR",
+                     "contacts":[
+                        {
+                           "name":"CARGOTEC FINLAND OY",
+                           "email":"pratik.sharma@inspirage.com",
+                           "phone":"+1245587850"
+                        }
+                     ]
+                  }
+               },
+               "deliveryAddress":{
+                  "name1":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+                  "name2":"TEST PK 1234",
+                  "street1":"HEIZEGEMWEG 7 ",
+                  "zipcode":"2030",
+                  "city":"ANTWERPEN",
+                  "countryCode":"BE",
+                  "longitude":"4.37766",
+                  "latitude":"51.26599",
+                  "contacts":[
+                     {
+                        "name":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+                        "email":"pratik.sharma@inspirage.com",
+                        "phone":"+17976456789"
+                     }
+                  ]
+               },
+               "pickupAddress":{
+                  "name1":"CARGOTEC FINLAND OY",
+                  "name2":"C/O NEOVIA LOGISTICS SERVICES",
+                  "street1":"ZAC DE LA FONTAINE DES SAINTS ",
+                  "zipcode":"57365",
+                  "city":"FLEVY",
+                  "countryCode":"FR",
+                  "longitude":"6.23611",
+                  "latitude":"49.23509",
+                  "contacts":[
+                     {
+                        "name":"CARGOTEC FINLAND OY",
+                        "email":"pratik.sharma@inspirage.com",
+                        "phone":"+1245587850"
+                     }
+                  ]
+               },
+               "dimensions":{
+                  "grossVolume":{
+                     "value":"1.08",
+                     "unit":"m3"
+                  },
+                  "grossWeight":{
+                     "value":"117.00",
+                     "unit":"kg"
+                  }
+               },
+               "remarks":[
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"LLC Tracking Link: https://test.logistics.cloud/?loginToken=5DC55828-26D2-459E-BF61-7B418D0C08F2&open=de.lobster.scm.common.bto::CommonBTO|listSearchWindow|FWK_SHIPMENT&id=669606"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"OUTBOUND"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Print label: Y"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Printer Id: 134.37.82.93"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Printer Workstation: FIHEL2-L1372"
+                  },
+                  {
+                     "remarkQualifier":"OTHER",
+                     "remarkText":"Transportation Cost: 406.78999999999996 EUR"
+                  }
+               ],
+               "transportSegments":[
+                  {
+                     "transportSegmentType":"FLIGHT",
+                     "transportMode":"AIR",
+                     "transportSegmentReference":"EDC202207070002-FI93_SAP",
+                     "carrier":{
+                        "address":{
+                           "name1":"DHL FREIGHT (FRANCE) S.A.S.",
+                           "countryCode":"FR"
+                        }
+                     },
+                     "origin":{
+                        "name1":"CARGOTEC FINLAND OY",
+                        "zipcode":"57365",
+                        "city":"FLEVY",
+                        "countryCode":"FR"
+                     },
+                     "destination":{
+                        "name1":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+                        "zipcode":"2030",
+                        "city":"ANTWERPEN",
+                        "countryCode":"BE"
+                     }
+                  }
+               ],
+               "handlingUnits":[
+                  {
+                     "aggregateShpPos":"1.0",
+                     "consignorRef":"105870",
+                     "principalRef":"EDC202207070002#1",
+                     "consignor":{
+                        "participantId":"10019",
+                        "address":{
+                           "name1":"Cargotec"
+                        }
+                     },
+                     "consignee":{
+                        "foreignPartnerReference":[
+                           {
+                              "reference":"700215-61564_SAP",
+                              "participantId":"10019"
+                           }
+                        ],
+                        "address":{
+                           "name1":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+                           "street1":"HEIZEGEMWEG 7 ",
+                           "zipcode":"2030",
+                           "city":"ANTWERPEN",
+                           "countryCode":"BE"
+                        }
+                     },
+                     "principal":{
+                        "participantId":"10019",
+                        "address":{
+                           "name1":"Cargotec"
+                        }
+                     },
+                     "dimensions":{
+                        "height":{
+                           "value":"40.0",
+                           "unit":"cm"
+                        },
+                        "length":{
+                           "value":"150.0",
+                           "unit":"cm"
+                        },
+                        "width":{
+                           "value":"90.0",
+                           "unit":"cm"
+                        },
+                        "grossVolume":{
+                           "value":"0.54",
+                           "unit":"m3"
+                        },
+                        "grossWeight":{
+                           "value":"56.00",
+                           "unit":"kg"
+                        }
+                     },
+                     "remarks":[
+                        {
+                           "remarkQualifier":"PACKAGING_DETAILS",
+                           "remarkText":"EUR1-800X1200"
+                        }
+                     ],
+                     "lineItems":[
+                        {
+                           "itemNumber":"1",
+                           "itemDescription":"SUB FRAME ASSY M1603",
+                           "foreignKeys":[
+                              {
+                                 "keyValue":"84818073",
+                                 "keyName":"COMMODITY_CODE",
+                                 "participantId":"10019"
+                              }
+                           ],
+                           "dimensions":{
+                              "grossWeight":{
+                                 "value":"0.00"
+                              }
+                           },
+                           "manufacturingCountry":"FR",
+                           "lineItemPos":"1",
+                           "customsInformation":{
+                              "exportReasonType":"PERMANENT"
+                           }
+                        },
+                        {
+                           "itemNumber":"1",
+                           "itemDescription":"BAR",
+                           "foreignKeys":[
+                              {
+                                 "keyValue":"84310900",
+                                 "keyName":"COMMODITY_CODE",
+                                 "participantId":"10019"
+                              }
+                           ],
+                           "dimensions":{
+                              "grossWeight":{
+                                 "value":"0.00"
+                              }
+                           },
+                           "manufacturingCountry":"FR",
+                           "lineItemPos":"2",
+                           "customsInformation":{
+                              "exportReasonType":"PERMANENT"
+                           }
+                        }
+                     ],
+                     "customsInformation":{
+                        "goodsDescription":"SUB FRAME ASSY M1603"
+                     }
+                  }
+               ],
+               "workingStatusEvents":[
+                  {
+                     "code":"RELEASED",
+                     "reason":"I",
+                     "creationDateTime":[
+                        {
+                           "milliseconds":"1657181437727"
+                        }
+                     ],
+                     "realizationDateTime":[
+                        {
+                           "timezone":"UTC",
+                           "milliseconds":"1657181437377"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

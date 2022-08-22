@@ -1,0 +1,99 @@
+{
+   "productCode":"U",
+   "plannedShippingDateAndTime":"2022-07-07T11:00:00 GMT+02:00",
+   "getRateEstimates":true,
+   "pickup":{
+      "isRequested":true,
+      "pickupDetails":{
+         "postalAddress":{
+            "countryCode":"FR",
+            "cityName":"FLEVY",
+            "postalCode":"57365",
+            "addressLine1":"ZAC DE LA FONTAINE DES SAINTS "
+         },
+         "contactInformation":{
+            "fullName":"CARGOTEC FINLAND OY",
+            "phone":"+1245587850",
+            "companyName":"CARGOTEC FINLAND OY"
+         }
+      }
+   },
+   "accounts":[
+      {
+         "typeCode":"shipper",
+         "number":"954987611"
+      }
+   ],
+   "outputImageProperties":{
+      "encodingFormat":"pdf",
+      "imageOptions":[
+         {
+            "templateName":"ECOM26_84_001",
+            "isRequested":true,
+            "typeCode":"label"
+         }
+      ]
+   },
+   "customerDetails":{
+      "shipperDetails":{
+         "postalAddress":{
+            "countryCode":"FR",
+            "cityName":"FLEVY",
+            "postalCode":"57365",
+            "addressLine1":"ZAC DE LA FONTAINE DES SAINTS "
+         },
+         "contactInformation":{
+            "fullName":"CARGOTEC FINLAND OY",
+            "phone":"+1245587850",
+            "companyName":"CARGOTEC FINLAND OY"
+         }
+      },
+      "receiverDetails":{
+         "postalAddress":{
+            "countryCode":"BE",
+            "cityName":"ANTWERPEN",
+            "postalCode":"2030",
+            "addressLine1":"HEIZEGEMWEG 7 "
+         },
+         "contactInformation":{
+            "fullName":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+            "phone":"+17976456789",
+            "companyName":"CARGOTEC BELGIUM NV, KALMAR OPERATI"
+         }
+      },
+      "buyerDetails":{
+         "postalAddress":{
+            "countryCode":"BE",
+            "cityName":"ANTWERPEN",
+            "postalCode":"2030",
+            "addressLine1":"HEIZEGEMWEG 7 "
+         },
+         "contactInformation":{
+            "fullName":"CARGOTEC BELGIUM NV, KALMAR OPERATI",
+            "phone":"+17976456789",
+            "companyName":"CARGOTEC BELGIUM NV, KALMAR OPERATI"
+         }
+      }
+   },
+   "content":{
+      "unitOfMeasurement":"metric",
+      "incoterm":"DAP",
+      "isCustomsDeclarable":false,
+      "description":"SUB FRAME ASSY M1603",
+      "packages":[
+         {
+            "weight":56,
+            "dimensions":{
+               "length":150,
+               "width":90,
+               "height":40
+            },
+            "customerReferences":[
+               {
+                  "value":"EDC202207070002#1"
+               }
+            ]
+         }
+      ]
+   }
+}
